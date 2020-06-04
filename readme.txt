@@ -1,6 +1,2 @@
-Git is a distributed version control system.
-Git is free software distributed under the GPL.
-Git has a mutable index called stage.
-Git tracks changes of files.
-Today is May 25th.
-Today is May 26th.
+Please contact me if there are some infringements in my codes.
+E-mail: shitong_liu@163.com
