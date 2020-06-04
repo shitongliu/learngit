@@ -88,7 +88,7 @@ f1, f2, f3 = 9, 5, 5    # filter size of layer 1,2,3
 lr = 1e-3               # learning rate
 mt = 0.9                # momentum of delta (delta[i+1] = mt*delta[i] + ...)
 batch_size = 256        # size of training batch
-epochs = 2             # training epochs
+epochs = 25             # training epochs
 remark = ''
 
 # load the luminance(HR images) and bicubic(LR interpolated image) images
