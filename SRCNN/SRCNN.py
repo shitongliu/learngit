@@ -92,7 +92,7 @@ epochs = 25             # training epochs
 remark = ''
 
 # load the luminance(HR images) and bicubic(LR interpolated image) images
-load_from_disk = True
+load_from_disk = False
 if load_from_disk:
     all_hr_images, all_img_names = read_images_from_dir("Train\\HR_Y", flags=cv2.IMREAD_GRAYSCALE)
     all_bic_images, _ = read_images_from_dir("Train\\Bicubic(x{})".format(up_scale), flags=cv2.IMREAD_GRAYSCALE)
